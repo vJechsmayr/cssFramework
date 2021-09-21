@@ -53,6 +53,7 @@ If your PR contains other files than css they will not be merged an in special c
 
 ### Spam Users
 Users who spam this Repo with PRs/Issues that does not align the Contribution Guidelines will be **blocked**.
+
 See [Official Hacktoberfest Quality Standards](https://hacktoberfest.digitalocean.com/resources/qualitystandards)
 
 ## Getting Started
