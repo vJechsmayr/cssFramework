@@ -72,6 +72,7 @@ git checkout -b feature/branch-name
 git checkout -b bugfix/branch-name
 ```
 * Make your changes (choose from the Tasks above!)
+* You can use the **html** and **css** Files in the _templates_ Folder
 * Commit and Push
 ```markdown
 git add .
