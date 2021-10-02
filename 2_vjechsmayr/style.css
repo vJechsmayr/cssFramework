@@ -62,3 +62,76 @@ button{
 .btn-grd-dark{
 background-image: linear-gradient(to right, #343a40 0%, #797c80 51%, #343a40 100%);
 }
+
+.btn-grd-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+.btn-grd-outline-primary:hover {
+    background-image: linear-gradient(to right, #FFF 0%, #007bff);
+    color: #fff;
+}
+
+.btn-grd-outline-secondary {
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}
+.btn-grd-outline-secondary:hover {
+    background-image: linear-gradient(to right, #fff 0%, #6c757d 100%);
+    color: #fff;
+}
+
+.btn-grd-outline-success {
+    border: 2px solid #28a745;
+    color: #28a745;
+}
+.btn-grd-outline-success:hover {
+    background-image: linear-gradient(to right, #fff 0%, #28a745 100%);
+    color: #fff;
+}
+
+.btn-grd-outline-danger {
+    border: 2px solid #dc3545;
+    color: #dc3545
+}
+.btn-grd-outline-danger:hover {
+    background-image: linear-gradient(to right, #fff 0%, #dc3545 100%);
+    color: #fff;
+}
+
+.btn-grd-outline-warning {
+    border: 2px solid #ffc107;
+    color: #ffc107;
+}
+.btn-grd-outline-warning:hover {
+    background-image: linear-gradient(to right, #fff 0%, #ffc107 100%);
+    color: #fff;
+}
+
+.btn-grd-outline-info{ 
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+}
+
+.btn-grd-outline-info:hover{
+    background-image: linear-gradient(to right, #fff 0%, #17a2b8 100%); 
+    color: #fff;
+}
+
+.btn-grd-outline-light {
+    border: 2px solid #f8f9fa;
+    color: #f8f9fa;
+}
+.btn-grd-outline-light:hover {
+    background-image: linear-gradient(to right, #fff 0%, #f8f9fa 100%);
+    color: #fff;
+}
+
+.btn-grd-outline-dark {
+    border: 2px solid #343a40;
+    color: #343a40;
+}
+.btn-grd-outline-dark:hover {
+    background-image: linear-gradient(to right, #fff 0%, #343a40 100%);
+    color: #fff;
+}
