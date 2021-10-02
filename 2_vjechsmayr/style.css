@@ -1,12 +1,33 @@
+:root{
+    --yellow: #ffc107;
+    --orange: #fd7e14;
+    --red: #dc3545;
+    --purple: #6f42c1;
+    --pink: #d63384;
+    --blue: #007bff;
+    --cyan: #0dcaf0;
+    --green: #198754;
+    --teal: #20c997;
+
+    --light: #f8f9fa;
+    --light-grey: #6c757d;
+    --dark-grey: #343a40;
+}
+
+
 button{
     margin: 5px 5px 5px 5px;
+}
+
+h1{
+    margin: 0 2rem 0 2rem;
 }
 
 /* Gradient Button */
 .btn-grd{
     transition: 0.5s;
     background-size: 200% auto;
-    color: #FFF;
+    color: white;
     border:none;
     box-shadow: 0 0 20px #eee;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -17,121 +38,364 @@ button{
 
 .btn-grd:hover {
     background-position: right center;
-    color: #FFF;
+    color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+/*
+* Full Gradient
+*/
 .btn-grd-primary{
-    background-image: linear-gradient(to right, #007bff 0%, #63aeff 51%, #007bff 100%);
+    background-image: linear-gradient(to right, var(--blue) 0%, #63aeff 51%, var(--blue) 100%);
 }
 
 .btn-grd-secondary{
-    background-image: linear-gradient(to right, #6c757d 0%, #b0b2b5 51%, #6c757d 100%);    
+    background-image: linear-gradient(to right, var(--light-grey) 0%, #b0b2b5 51%, var(--light-grey) 100%);    
 }
 
 .btn-grd-success{
-    background-image: linear-gradient(to right, #28a745 0%, #6adb83 51%, #28a745 100%);    
+    background-image: linear-gradient(to right, var(--green) 0%, #6adb83 51%, var(--green) 100%);    
 }
 
 .btn-grd-danger{
-    background-image: linear-gradient(to right, #dc3545 0%, #a71d2a 51%, #dc3545 100%);    
+    background-image: linear-gradient(to right, var(--red) 0%, #a71d2a 51%, var(--red) 100%);    
 }
 
 .btn-grd-warning{
-    color: #000;
-    background-image: linear-gradient(to right, #ffc107 0%, #ffe8a4 51%, #ffc107 100%);
+    color: black;
+    background-image: linear-gradient(to right, var(--yellow) 0%, #ffe8a4 51%, var(--yellow) 100%);
 }
 
 .btn-grd-warning:hover{
-    color: #000;
+    color: black;
 }
 
 .btn-grd-info{
-    background-image: linear-gradient(to right, #17a2b8 0%, #177ab8 51%, #17a2b8 100%);    
+    background-image: linear-gradient(to right, var(--cyan) 0%, #177ab8 51%, var(--cyan) 100%);    
 }
 
 .btn-grd-light{
-    color: #000;
-    background-image: linear-gradient(to right, #f8f9fa 0%, #d4d5d6 41%, #f8f9fa 100%);
+    color: black;
+    background-image: linear-gradient(to right, var(--light) 0%, #d4d5d6 41%, var(--light) 100%);
 }
 
 .btn-grd-light:hover{
-    color: #000;
+    color: black;
 }
 
 .btn-grd-dark{
-background-image: linear-gradient(to right, #343a40 0%, #797c80 51%, #343a40 100%);
+background-image: linear-gradient(to right, var(--dark-grey) 0%, #797c80 51%, var(--dark-grey) 100%);
 }
 
+/*
+* Outline Gradient
+*/
+
 .btn-grd-outline-primary {
-    border: 2px solid #007bff;
-    color: #007bff;
+    border: 2px solid var(--blue);
+    color: var(--blue);
 }
 .btn-grd-outline-primary:hover {
-    background-image: linear-gradient(to right, #FFF 0%, #007bff);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--blue));
+    color: white;
 }
 
 .btn-grd-outline-secondary {
-    border: 2px solid #6c757d;
-    color: #6c757d;
+    border: 2px solid var(--light-grey);
+    color: var(--light-grey);
 }
 .btn-grd-outline-secondary:hover {
-    background-image: linear-gradient(to right, #fff 0%, #6c757d 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--light-grey) 100%);
+    color: white;
 }
 
 .btn-grd-outline-success {
-    border: 2px solid #28a745;
-    color: #28a745;
+    border: 2px solid var(--green);
+    color: var(--green);
 }
 .btn-grd-outline-success:hover {
-    background-image: linear-gradient(to right, #fff 0%, #28a745 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--green) 100%);
+    color: white;
 }
 
 .btn-grd-outline-danger {
-    border: 2px solid #dc3545;
-    color: #dc3545
+    border: 2px solid var(--red);
+    color: var(--red)
 }
 .btn-grd-outline-danger:hover {
-    background-image: linear-gradient(to right, #fff 0%, #dc3545 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--red) 100%);
+    color: white;
 }
 
 .btn-grd-outline-warning {
-    border: 2px solid #ffc107;
-    color: #ffc107;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
 }
 .btn-grd-outline-warning:hover {
-    background-image: linear-gradient(to right, #fff 0%, #ffc107 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--yellow) 100%);
 }
 
 .btn-grd-outline-info{ 
-    border: 2px solid #17a2b8;
-    color: #17a2b8;
+    border: 2px solid var(--cyan);
+    color: var(--cyan);
 }
 
 .btn-grd-outline-info:hover{
-    background-image: linear-gradient(to right, #fff 0%, #17a2b8 100%); 
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--cyan) 100%); 
 }
 
 .btn-grd-outline-light {
-    border: 2px solid #f8f9fa;
-    color: #f8f9fa;
+    border: 2px solid var(--light);
+    color: var(--light);
 }
 .btn-grd-outline-light:hover {
-    background-image: linear-gradient(to right, #fff 0%, #f8f9fa 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--light) 100%);
 }
 
 .btn-grd-outline-dark {
-    border: 2px solid #343a40;
-    color: #343a40;
+    border: 2px solid var(--dark-grey);
+    color: var(--dark-grey);
 }
 .btn-grd-outline-dark:hover {
-    background-image: linear-gradient(to right, #fff 0%, #343a40 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, white 0%, var(--dark-grey) 100%);
+    color: white;
 }
+
+/*
+* Rainbow Gradient - Red
+*/
+
+.btn-grd-red-yellow{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--yellow) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-orange{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--orange) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-blue{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--blue) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-cyan{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--cyan) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-green{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--green) 51%, var(--red) 100% );
+}
+
+.btn-grd-red-pink{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--pink) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-purple{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--purple) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-teal{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--teal) 51%, var(--red) 100%);
+}
+
+/*
+* Rainbow Gradient - Yellow
+*/
+
+.btn-grd-yellow-blue{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--blue) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-orange{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--orange) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-cyan{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--cyan) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-green{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--green) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-light{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--light) 51%, var(--yellow) 100%);
+    color: black;
+}
+
+.btn-grd-yellow-light:hover{
+    color: black;
+}
+
+/*
+* Rainbow Gradient - Cyan
+*/
+
+.btn-grd-cyan-green{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--green) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-orange{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--orange) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-blue{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--blue) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-light{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--light) 51%, var(--cyan) 100%);
+    color: black;
+}
+
+.btn-grd-cyan-light:hover{
+    color: black;
+}
+
+.btn-grd-cyan-dark{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--dark-grey) 51%, var(--cyan) 100%);
+}
+
+/*
+* Rainbow Gradient - Blue
+*/
+
+.btn-grd-blue-purple{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--purple) 51%, var(--blue) 100%);
+}
+
+.btn-grd-blue-orange{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--orange) 51%, var(--blue) 100%);
+}
+
+.btn-grd-blue-light{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--light) 51%, var(--blue) 100%);
+    color: #000;
+}
+
+.btn-grd-blue-light:hover{
+    color: #000;
+}
+
+/*
+* Rainbow Gradient - Purple
+*/
+
+.btn-grd-purple-orange{
+    background-image: linear-gradient(to right, var(--purple) 0%, var(--orange) 51%, var(--purple) 100%);
+}
+
+/*
+* Rainbow Gradient - Pink
+*/
+
+.btn-grd-pink-orange{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--orange) 51%, var(--pink) 100%);
+}
+
+.btn-grd-pink-red{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--red) 51%, var(--pink) 100%);
+}
+
+.btn-grd-pink-purple{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--purple) 51%, var(--pink) 100%);
+}
+
+/*
+* Rainbow Gradient - Dark
+*/
+
+.btn-grd-dark-black{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, black 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-red{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--red) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-yellow{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--yellow) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-orange{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--orange) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-pink{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--pink) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-purple{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--purple) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-blue{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--blue) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-cyan{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--cyan) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-green{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--green) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-teal{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--teal) 51%, var(--dark-grey) 100%);
+}
+
+
+
+
+/*
+* Rainbow Gradient - Light
+*/
+
+.btn-grd-light-colors{
+    color: black;
+}
+
+.btn-grd-light-colors:hover{
+    color: black;
+}
+
+.btn-grd-light-black{
+    background-image: linear-gradient(to right, var(--light) 0%, black 51%, var(--light) 100%);
+}
+
+.btn-grd-light-red{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--red) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-yellow{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--yellow) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-orange{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--orange) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-pink{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--pink) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-purple{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--purple) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-blue{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--blue) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-cyan{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--cyan) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-green{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--green) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-teal{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--teal) 51%, var(--light) 100%);
+}
+
