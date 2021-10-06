@@ -135,3 +135,262 @@ background-image: linear-gradient(to right, #343a40 0%, #797c80 51%, #343a40 100
     background-image: linear-gradient(to right, #fff 0%, #343a40 100%);
     color: #fff;
 }
+<<<<<<< Updated upstream
+=======
+
+.btn-grd-red-blue{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--blue) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-cyan{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--cyan) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-green{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--green) 51%, var(--red) 100% );
+}
+
+.btn-grd-red-pink{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--pink) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-purple{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--purple) 51%, var(--red) 100%);
+}
+
+.btn-grd-red-teal{
+    background-image: linear-gradient(to right, var(--red) 0%, var(--teal) 51%, var(--red) 100%);
+}
+
+/*
+* Rainbow Gradient - Yellow
+*/
+
+.btn-grd-yellow-blue{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--blue) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-orange{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--orange) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-cyan{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--cyan) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-green{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--green) 51%, var(--yellow) 100%);
+}
+
+.btn-grd-yellow-light{
+    background-image: linear-gradient(to right, var(--yellow) 0%, var(--light) 51%, var(--yellow) 100%);
+    color: black;
+}
+
+.btn-grd-yellow-light:hover{
+    color: black;
+}
+
+/*
+* Rainbow Gradient - Cyan
+*/
+
+.btn-grd-cyan-green{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--green) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-orange{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--orange) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-blue{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--blue) 51%, var(--cyan) 100%);
+}
+
+.btn-grd-cyan-light{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--light) 51%, var(--cyan) 100%);
+    color: black;
+}
+
+.btn-grd-cyan-light:hover{
+    color: black;
+}
+
+.btn-grd-cyan-dark{
+    background-image: linear-gradient(to right, var(--cyan) 0%, var(--dark-grey) 51%, var(--cyan) 100%);
+}
+
+/*
+* Rainbow Gradient - Blue
+*/
+
+.btn-grd-blue-purple{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--purple) 51%, var(--blue) 100%);
+}
+
+.btn-grd-blue-orange{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--orange) 51%, var(--blue) 100%);
+}
+
+.btn-grd-blue-light{
+    background-image: linear-gradient(to right, var(--blue) 0%, var(--light) 51%, var(--blue) 100%);
+    color: #000;
+}
+
+.btn-grd-blue-light:hover{
+    color: #000;
+}
+
+/*
+* Rainbow Gradient - Purple
+*/
+
+.btn-grd-purple-orange{
+    background-image: linear-gradient(to right, var(--purple) 0%, var(--orange) 51%, var(--purple) 100%);
+}
+
+/*
+* Rainbow Gradient - Pink
+*/
+
+.btn-grd-pink-orange{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--orange) 51%, var(--pink) 100%);
+}
+
+.btn-grd-pink-red{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--red) 51%, var(--pink) 100%);
+}
+
+.btn-grd-pink-purple{
+    background-image: linear-gradient(to right, var(--pink) 0%, var(--purple) 51%, var(--pink) 100%);
+}
+
+/*
+* Rainbow Gradient - Dark
+*/
+
+.btn-grd-dark-black{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, black 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-red{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--red) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-yellow{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--yellow) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-orange{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--orange) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-pink{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--pink) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-purple{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--purple) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-blue{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--blue) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-cyan{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--cyan) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-green{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--green) 51%, var(--dark-grey) 100%);
+}
+
+.btn-grd-dark-teal{
+    background-image: linear-gradient(to right, var(--dark-grey) 0%, var(--teal) 51%, var(--dark-grey) 100%);
+}
+
+
+
+
+/*
+* Rainbow Gradient - Light
+*/
+
+.btn-grd-light-colors{
+    color: black;
+}
+
+.btn-grd-light-colors:hover{
+    color: black;
+}
+
+.btn-grd-light-black{
+    background-image: linear-gradient(to right, var(--light) 0%, black 51%, var(--light) 100%);
+}
+
+.btn-grd-light-red{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--red) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-yellow{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--yellow) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-orange{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--orange) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-pink{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--pink) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-purple{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--purple) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-blue{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--blue) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-cyan{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--cyan) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-green{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--green) 51%, var(--light) 100%);
+}
+
+.btn-grd-light-teal{
+    background-image: linear-gradient(to right, var(--light) 0%, var(--teal) 51%, var(--light) 100%);
+}
+
+
+/* 
+* Button Gradient Text 
+*/
+
+
+.btn-grd-text-pink-purple{
+    background: linear-gradient(90deg, var(--pink), var(--purple));
+}
+
+.btn-grd-text-pink-purple:hover{
+    background:linear-gradient(270deg, var(--pink), var(--purple));  
+    color:#fff;
+}
+
+.btn-grd-text-light-yellow{
+    background: linear-gradient(90deg, var(--light), var(--yellow));
+}
+
+.btn-grd-text-light-yellow:hover{
+    background:linear-gradient(270deg, var(--light), var(--yellow));  
+    color:#000;
+}
+
+.btn-grd-text{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+>>>>>>> Stashed changes
