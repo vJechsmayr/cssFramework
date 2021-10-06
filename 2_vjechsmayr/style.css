@@ -399,3 +399,32 @@ background-image: linear-gradient(to right, var(--dark-grey) 0%, #797c80 51%, va
     background-image: linear-gradient(to right, var(--light) 0%, var(--teal) 51%, var(--light) 100%);
 }
 
+/* 
+* Button Gradient Text 
+*/
+
+
+.btn-grd-text-pink-purple{
+    background: linear-gradient(90deg, var(--pink), var(--purple));
+}
+
+.btn-grd-text-pink-purple:hover{
+    background:linear-gradient(270deg, var(--pink), var(--purple));  
+    color:#fff;
+}
+
+.btn-grd-text-light-yellow{
+    background: linear-gradient(90deg, var(--light), var(--yellow));
+}
+
+.btn-grd-text-light-yellow:hover{
+    background:linear-gradient(270deg, var(--light), var(--yellow));  
+    color:#000;
+}
+
+.btn-grd-text{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
