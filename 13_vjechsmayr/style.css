@@ -1,0 +1,76 @@
+*{
+    color: #fff;
+}
+
+.bottomNav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #00C7AC;
+
+    display: flex;
+}
+
+.bottomNav .nav-item{
+    flex: 1;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-bottom: solid 0px #fff;
+    transition: 
+        background-color 300ms, 
+        border-bottom-width 300ms;
+}
+
+.bottomNav .nav-item.active{
+    background-color: #008a77;
+    border-bottom-width: 5px;
+}
+
+.bottomNav .nav-item:hover{
+    background-color: #008a77;
+    border-bottom-width: 5px;
+}
+
+.nav-home{
+    background-image: url(home-solid.svg);
+}
+
+.nav-heart{
+    background-image: url(heart-solid.svg);
+}
+
+.nav-photo{
+    background-image: url(camera-solid.svg);
+}
+
+.nav-paw{
+    background-image: url(paw-solid.svg);
+}
+
+.nav-code{
+    background-image: url(code-solid.svg);
+}
+
+.nav-astronaut{
+    background-image: url(user-astronaut-solid.svg);
+}
+
+.nav-instagram{
+    background-image: url(instagram-brands.svg);
+}
+
+.nav-twitch{
+    background-image: url(twitch-brands.svg);
+}
+
+.nav-dog{
+    background-image: url(dog-solid.svg);
+}
+
+.nav-star{
+    background-image: url(star-solid.svg);
+}
+
